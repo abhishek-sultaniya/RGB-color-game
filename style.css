@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Baloo Bhai 2", cursive;
+    /* font-size: 48px; */
+  }
+  .toppart
+  {
+    background-color: #1d1a1d;
+    /* height: 10%; */
+      margin: 0px 0px -17px 0px;
+      /* padding: 20px; */
+      /* border: 20px solid pink; */
+      /* background-color: rgb(143, 143, 13); */
+  }
+  .sign {
+    /* position:absolute; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 40%; */
+    background-image: radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      #6b1839,
+      transparent
+    );
+  /* transform: translate(-50%, -50%); */
+  letter-spacing: 2;
+  left: 50%;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 65px;
+  padding-left: 10px;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+  }
+  
+  .middle
+  {
+    /* border: 10px solid goldenrod; */
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    /* color: white; */
+    /* font-style: inherit; */
+  }
+  
+  .change
+  {
+    text-align: center;
+    color: white;
+      /* border: 10px solid black; */
+      font: 'Great Vibes', Helvetica, sans-serif;
+      color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+      font-size: 50px;
+  }
+  .midpart
+  {
+      /* border: 10px solid blueviolet; */
+      font-size: 22px;
+      /* color: aquamarine; */
+      background-color: red;
+      padding: 14px 30px 40px 30px;
+  }
+
+  .newgame
+  {
+      float: left;
+      width: 50%;
+      border: 10px solid black;
+      text-align: center;
+  }
+
+   .levels
+  {
+      float: right;
+      width: 40%;
+      border: 10px solid rgb(223, 23, 23);
+  }
+
+.lastpart
+{
+    background-color: white;
+    border: 10px solid black;
+    background-color: black;
+    /* margin: 1% 0%; */
+}
+
+
+.easycards
+{
+     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     /* border: 15px solid green; */
+}
+.card
+{
+    color: white;
+}
+.card1
+{
+   
+    width: 13%;
+    margin: 0% 0% 0% 25%;
+    height: 130px;
+    margin-bottom: 14px;
+    border-radius: 19px;
+    /* background-color: blue; */
+    /* border: 5px; */
+}
+.card2
+{
+    
+    width: 13%;
+    margin-bottom: 14px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border-radius: 19px;
+    /* background-color: aquamarine; */
+    /* border: 5px solid aquamarine; */
+}
+.card3
+{
+    width: 13%;
+    margin: 0% 10% 0% 0%;
+    margin-bottom: 14px;
+    border-radius: 19px;
+    /* background-color: cadetblue; */
+    /* border: 5px solid cadetblue; */
+   
+}
+.card4
+{
+    
+    width: 13%;
+    margin: 0% 0% 0% 25%;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 19px;
+    /* background-color: rgb(152, 224, 36);
+    border: 5px solid rgb(152, 224, 36); */
+}
+.card5
+{
+    width: 13%;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 20px;
+    border-radius: 19px;
+    /* background-color: darkorange;
+    border: 5px solid  darkorange; */
+} 
+.card6
+{
+    
+    width: 13%;
+    margin-bottom: 20px;
+    border-radius: 19px;
+    /* background-color: darkkhaki;
+    border: 5px solid darkkhaki; */
+}
+
