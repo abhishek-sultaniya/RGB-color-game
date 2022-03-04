@@ -82,6 +82,7 @@ change.innerHTML = extractrgbb();
             card.style.background=chosencolor;
         }
         gametext.innerHTML = "YOU WON SIR";
+        newgame.innerHTML = "Play Again!!!";
       }
       else
       {
